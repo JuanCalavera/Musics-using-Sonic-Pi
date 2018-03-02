@@ -1,3 +1,4 @@
+#Musica utilizando arrays, operadores e loops alternados
 use_synth :dsaw
 
 s=0.11 #ajustando tempo aqui
@@ -11,7 +12,7 @@ m=4*q
 md=6*q
 b=8*q
 
-semivol=0.3 #configuração de volume
+semivol=0.3 #configuraÃ§Ã£o de volume
 full=1
 soft=0.5
 
@@ -127,7 +128,7 @@ finalerd=[q,q+7*c]
 finaleln=[[:c2,:e2,:g2,:c3],[:c2,:e2,:g2,:c3]]
 finaleld=[q,q+7*c]
 puts "rh4"
-puts rhn4.length #duração com a chamada de debbuging para checagem
+puts rhn4.length #duraÃ§Ã£o com a chamada de debbuging para checagem
 puts rhd4.length
 puts "lh4"
 puts lhn4.length
